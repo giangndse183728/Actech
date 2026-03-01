@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-font {
+  font-family: var(--font-anta);
+  font-size: clamp(3rem, 15vw, 240px);
+  font-weight: 500;
+}
+
+.tomorrow-font {
+  font-family: var(--font-anta);
+}
+
+.inter-font {
+  font-family: var(--font-inter);
+}
+
+.hero-tagline {
+  font-family: var(--font-inter), sans-serif;
+}
+
+@media (max-width: 640px) {
+  .hero-font {
+    font-size: clamp(2.5rem, 12vw, 5rem);
+  }
+}
