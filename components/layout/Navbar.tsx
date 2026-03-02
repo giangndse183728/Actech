@@ -10,8 +10,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 const navLinks = [
-  { href: "#projects", label: "Projects" },
-  { href: "#about", label: "About Us" },
+  { href: "/projects", label: "Projects" },
+  { href: "/about-us", label: "About Us" },
   { href: "/contact", label: "Contact" },
 ];
 
