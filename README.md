@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ACTECH – Architecture Landing Page  
 
-## Getting Started
+## 📌 Overview  
 
-First, run the development server:
+**ACTECH** is a modern architectural landing page built to showcase the company’s featured projects and design philosophy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website functions as a digital portfolio, presenting Actech’s expertise in residential, commercial, renovation, and urban planning projects through a clean, minimal interface with smooth and distinctive animations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The primary goal is to create a strong first impression while clearly communicating Actech’s architectural identity and vision.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗 Project Scope  
 
-## Learn More
+This landing page includes the following main sections:
 
-To learn more about Next.js, take a look at the following resources:
+- **Hero Section** – Large-scale visual with bold typography and intro animation  
+- **Highlight Projects** – Selected showcase works  
+- **Our Services** – Core architectural offerings  
+- **Trust Section** – Partner logos or key statistics  
+- **Our Vision** – Design philosophy and long-term direction  
+- **Contact & Footer**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Routes  
 
-## Deploy on Vercel
+In addition to the main landing page, the website also provides dedicated pages for deeper exploration:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **/about-us** – Company background, mission, vision, and architectural philosophy  
+- **/projects** – Complete project listing with categorized architectural works  
+- **/contact** – Contact form, company information, and client inquiry section  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The layout and routing system are structured to guide users naturally through the brand story while ensuring seamless navigation across all core pages.
+
+---
+
+
+## 🎨 Design Philosophy  
+
+The UI follows a **modern and minimal design language**, focusing on:
+
+- Strong typography    
+- High-quality full-width imagery  
+- Balanced composition  
+- Subtle yet impactful animations  
+
+The overall experience emphasizes clarity, professionalism, and architectural precision.
+
+---
+
+## ⚙️ Tech Stack  
+
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS  
+- **Animation:** GSAP  
+
+---
+
+## ✨ Key Features  
+
+- Fully responsive
+- Smooth scrolling experience  
+- Scroll-triggered animations  
+- Modern micro-interactions  
+- Optimized performance  
+
+---
+
+
+## 🎯 Project Objective  
+
+ACTECH is more than a project showcase website.  
+It is a digital architectural experience representing:
+
+- Design thinking  
+- Spatial aesthetics  
+- Brand identity  
+- Modern digital craftsmanship  
+
+This landing page bridges architecture and technology, transforming physical space design into a refined digital presentation.
