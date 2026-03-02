@@ -12,7 +12,6 @@ export default function HighlightProject() {
   return (
     <section className="relative w-full overflow-hidden bg-white py-16 md:py-16">
       <div className="mx-auto grid w-full max-w-8xl grid-cols-1 gap-8 px-6 md:grid-cols-2 md:gap-12 md:px-8 lg:gap-16 items-center h-[50vh]">
-        {/* Left: big typography */}
         <div className="flex flex-col justify-center">
           <FadeUp>
             <p className="tomorrow-font mb-4 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
@@ -32,7 +31,7 @@ export default function HighlightProject() {
           </FadeUp>
           <FadeUp delay={0.25}>
             <a
-              href="#"
+              href="/projects"
               className="inter-font mt-10 inline-flex items-center gap-2 text-sm font-medium uppercase tracking-widest text-neutral-900 transition-colors hover:text-neutral-600"
             >
               View project
@@ -66,7 +65,6 @@ export default function HighlightProject() {
         </div>
       </div>
 
-      {/* Two-column project showcase — below featured section */}
       <div className="mx-auto mt-16 grid w-full max-w-8xl grid-cols-1 gap-4 md:mt-48 md:grid-cols-[0.3fr_0.7fr] md:gap-8 md:px-8 lg:gap-6">
         {/* Left */}
         <FadeUp delay={0.1} className="flex flex-col">
@@ -115,7 +113,6 @@ export default function HighlightProject() {
         </FadeUp>
       </div>
 
-      {/* Stats + project image section */}
       <div className="mx-auto py-12 grid w-full max-w-8xl grid-cols-1 gap-6 px-6 md:mt-5 md:grid-cols-2  md:px-8 ">
         <FadeUp delay={0.1} className="flex flex-col">
           <div className="flex flex-wrap items-baseline gap-4">
@@ -162,10 +159,8 @@ export default function HighlightProject() {
         </FadeUp>
       </div>
 
-      {/* Portfolio CTA strip */}
       <div className="mx-auto mt-16 w-full max-w-8xl px-6 md:px-8">
         <div className="grid grid-cols-1 items-start gap-12 md:grid-cols-[0.1fr_0.4fr_0.2fr_0.4fr]">
-          {/* Thumbnail */}
           <ZoomInBottomLeft delay={0.05}>
             <div className="relative h-24 w-24 overflow-hidden rounded-lg md:h-42 md:w-42">
               <Image
@@ -178,14 +173,12 @@ export default function HighlightProject() {
             </div>
           </ZoomInBottomLeft>
 
-          {/* Main heading */}
           <FadeUp delay={0.1}>
             <h3 className="tomorrow-font text-2xl font-medium leading-snug text-neutral-900 md:text-4xl">
               Our portfolio speaks for itself.
             </h3>
           </FadeUp>
 
-          {/* Supporting copy */}
 
           <FadeUp delay={0.2}>
             <p className="inter-font text-sm font-light leading-relaxed text-neutral-600 md:text-base ">
@@ -193,12 +186,10 @@ export default function HighlightProject() {
             </p>
           </FadeUp>
 
-          {/* Button */}
-
           <FadeUp delay={0.3}>
             <div className="flex justify-start md:justify-end">
               <a
-                href="#"
+                href="/projects"
                 className="inter-font inline-flex items-center justify-center rounded-none bg-neutral-900 pr-24 pl-2 pt-8 pb-2 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-neutral-800"
               >
                 See Our Projects
