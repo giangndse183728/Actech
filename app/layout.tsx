@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   title: "ACTECH",
   description:
     "ACTECH is a architecture and interior design firm that specializes in creating beautiful and functional spaces.",
+    openGraph: {
+      title: 'ACTECH',
+      description: 'ACTECH is a architecture and interior design firm that specializes in creating beautiful and functional spaces.',
+      images: ['/images/thumbnail.png'],
+    },
 };
 
 export default function RootLayout({
