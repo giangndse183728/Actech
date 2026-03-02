@@ -12,8 +12,8 @@ const stats = [
 ];
 
 const logos = [
-  "ArchDaily",
-  "Dezeen",
+  "VIETSOVPETRO",
+  "Nam A",
   "Archinect",
   "DesignBoom",
   "Wallpaper",

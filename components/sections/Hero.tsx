@@ -81,7 +81,7 @@ export default function Hero() {
               <p className="hero-tagline text-md font-light tracking-wide text-white opacity-80">
                 Smart Architecture
               </p>
-              <p className="hero-tagline text-md font-light tracking-wide text-white opacity-80">
+              <p className="hero-tagline text-md font-light tracking-wide text-white opacity-80 text-right">
                 Designing the Future of Space
               </p>
             </div>

@@ -3,10 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const footerLinks = [
-  { href: "#about", label: "About" },
-  { href: "#services", label: "Services" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "/about-us", label: "About" },
+  { href: "/projects", label: "Projects" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Footer() {
@@ -89,7 +88,7 @@ export default function Footer() {
                   Would like to talk about your future project?
                 </h3>
                 <Link
-                  href="#contact"
+                  href="/contact"
                   className="mt-6 inline-flex border-2 border-black px-8 py-3 text-sm font-medium text-black transition-colors hover:bg-black hover:text-white"
                 >
                   Get in touch &rarr;

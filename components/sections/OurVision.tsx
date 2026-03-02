@@ -124,7 +124,7 @@ export default function OurVision() {
             className="absolute inset-0 z-20 flex items-center justify-center"
           >
             <a
-              href="#"
+              href="/about-us"
               className="pointer-events-auto bg-white px-8 py-3 text-sm font-semibold tracking-wide text-zinc-900 transition-colors hover:bg-zinc-100 md:px-10 md:py-4 md:text-base"
               style={{ fontFamily: "var(--font-inter)" }}
             >

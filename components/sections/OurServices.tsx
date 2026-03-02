@@ -93,11 +93,11 @@ export default function OurServices() {
       ref={sectionRef}
       className="relative h-screen w-full overflow-hidden bg-white"
     >
-      <div className="flex h-full w-full gap-8">
+      <div className="flex h-full w-full flex-col-reverse gap-8 md:flex-row">
         {/* Left column */}
-        <div className="flex w-[30%] flex-col justify-between px-2 py-1 md:px-4 md:py-2">
+        <div className="flex w-full flex-col justify-between px-2 py-1 md:w-[30%] md:px-4 md:py-2">
           {/* Project title */}
-          <div>
+          <div className="hidden md:block">
             <h2
               ref={projectNameRef}
               className="text-5xl font-medium tomorrow-font leading-[1.1] tracking-tight text-zinc-900 md:text-6xl lg:text-7xl pt-4"
@@ -148,8 +148,8 @@ export default function OurServices() {
         </div>
 
         {/* Right column - image stack with service description overlay */}
-        <div className="relative flex w-[70%] items-end p-4 md:p-4">
-          <div className="relative h-[80%] w-full overflow-hidden rounded-2xl">
+        <div className="relative flex w-full items-end p-4 md:w-[70%] md:p-4">
+          <div className="relative w-full overflow-hidden rounded-2xl h-[260px] sm:h-[320px] md:h-[80%]">
             {services.map((service, i) => (
               <div
                 key={service.title}

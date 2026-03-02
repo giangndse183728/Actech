@@ -42,25 +42,32 @@ export default function HighlightProject() {
         </div>
 
         {/* Right: image */}
-        <div className="relative aspect-[1/1]  w-full h-full overflow-hidden rounded-lg md:aspect-square lg:aspect-square items-center">
-          <ZoomInBottomLeft
-            delay={0.1}
-            className="absolute inset-0 h-full w-full"
-          >
-            <Image
-              src={InteriorDesign.thumbnail.src}
-              alt={InteriorDesign.thumbnail.alt}
-              fill
-              className="object-cover"
-              sizes="(min-width: 768px) 50vw, 100vw"
-              priority={false}
-            />
-          </ZoomInBottomLeft>
+        <div className="hidden md:block">
+          <div className="relative w-full overflow-hidden rounded-lg h-[220px] sm:h-[260px] md:h-[320px] lg:h-[360px]">
+            <ZoomInBottomLeft
+              delay={0.1}
+              className="absolute inset-0 h-full w-full"
+            >
+              <Image
+                src={InteriorDesign.thumbnail.src}
+                alt={InteriorDesign.thumbnail.alt}
+                fill
+                className="object-cover"
+                sizes="(min-width: 768px) 50vw, 100vw"
+                priority={false}
+              />
+            </ZoomInBottomLeft>
+          </div>
+          <ProjectCaption
+            type={InteriorDesign.type}
+            title={InteriorDesign.title}
+            dateCompleted={InteriorDesign.dateCompleted}
+          />
         </div>
       </div>
 
       {/* Two-column project showcase — below featured section */}
-      <div className="mx-auto mt-16 grid w-full max-w-8xl grid-cols-1 gap-4 md:mt-24 md:grid-cols-[0.3fr_0.7fr] md:gap-8 md:px-8 lg:gap-8">
+      <div className="mx-auto mt-16 grid w-full max-w-8xl grid-cols-1 gap-4 md:mt-48 md:grid-cols-[0.3fr_0.7fr] md:gap-8 md:px-8 lg:gap-6">
         {/* Left */}
         <FadeUp delay={0.1} className="flex flex-col">
           <ZoomInBottomLeft className="relative aspect-[1/1] w-full overflow-hidden rounded-lg">
@@ -81,9 +88,16 @@ export default function HighlightProject() {
 
         {/* Right */}
         <FadeUp delay={0.15} className="flex flex-col">
+          <div className="mb-4 text-right hidden md:block">
+            <h2 className="tomorrow-font text-5xl font-medium  text-neutral-900 md:text-5xl lg:text-6xl xl:text-7xl">
+              Highlighted
+              <br />
+              <span className="text-neutral-400">Projects</span>
+            </h2>
+          </div>
           <ZoomInBottomLeft
             delay={0.2}
-            className="relative min-h-[320px] w-full overflow-hidden rounded-lg md:min-h-[420px] lg:min-h-[650px]"
+            className="relative min-h-[320px] w-full overflow-hidden rounded-lg md:min-h-[420px] lg:min-h-[650px] mt-12"
           >
             <Image
               src={VietsoMeetingRoom.thumbnail.src}
